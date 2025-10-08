@@ -8,9 +8,9 @@ local ClientDataModule = require(ReplicatedStorage.ClientModules.Core.ClientData
 -- Remote Call Definitions
 -- IMPORTANT: These wait for the server components to exist before proceeding.
 local API = ReplicatedStorage:WaitForChild("API")
-local AddPetRemote = API:WaitForChild("IdleProgressionAPI/AddPet")
+local AddPetRemote = API:WaitForChild("IdleProgressionAPI.AddPet")
 -- Remote for removing pets
-local RemovePetRemote = API:WaitForChild("IdleProgressionAPI/RemovePet")
+local RemovePetRemote = API:WaitForChild("IdleProgressionAPI.RemovePet")
 -- Remote for claiming progression/XP
 local CommitProgressionRemote = API:WaitForChild("IdleProgressionAPI/CommitAllProgression")
 
