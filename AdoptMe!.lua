@@ -12,7 +12,7 @@ local AddPetRemote = API:WaitForChild("IdleProgressionAPI.AddPet")
 -- Remote for removing pets
 local RemovePetRemote = API:WaitForChild("IdleProgressionAPI.RemovePet")
 -- Remote for claiming progression/XP
-local CommitProgressionRemote = API:WaitForChild("IdleProgressionAPI/CommitAllProgression")
+local CommitProgressionRemote = API:WaitForChild("IdleProgressionAPI.CommitAllProgression")
 
 -- Configuration
 local TARGET_SPECIES_IDS = {
